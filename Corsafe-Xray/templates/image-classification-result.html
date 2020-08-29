@@ -1,0 +1,75 @@
+<html>
+    <title>COVID19 XRAY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Red+Rose:wght@700&family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #59405c;
+            font-family: 'Abril Fatface', cursive;
+         }
+        main {
+            height: 100%;
+            margin:0;
+            background-color: rgb(230, 165, 134);
+        }
+        .innerclass{
+            margin:50px auto 100px auto;
+            width: 50%;
+            padding:50px 50px 10px 50px;
+            background-color:rgba(211,211,211,0.5);
+            font-size:1.5rem;
+        }
+        .title{
+            font-size: 1.5rem;
+            color: lightgray; 
+            position: absolute;  
+            margin-left:60px;  
+            font-family: 'Red Rose', cursive;
+        }
+        input{
+            size:2rem;
+        }
+        .navbar{
+            position: relative;;
+            top:0;
+            width: 100%;
+            background-color:#26232e;
+            font-size:1.5rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+        }
+        .btn{
+            font-family: 'Special Elite', cursive;
+        }
+        .bubbtn{
+            color: aliceblue;
+        }
+        .imgman{
+            position:relative;
+            left:10;
+        }
+    </style>
+    <body>
+        <div class="main">
+            <nav class="navbar navbar-light">
+                <a class="navbar-brand" href="#">
+                  <img src="static/Logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+                </a>
+                <h3 class="title "> CORSAFE</h3>
+              </nav>
+            <center>
+                <div class="card innerclass" style="width:50rem;">
+                    <div class="imgman">
+                        <img class="card-img-top" src="static/Logo.png" alt="Card image cap" style="height:600px; width:650px;">
+                    </div>
+                    <div class="card-body">
+                            <h3>COVID19 XRAY RESULTS:</h3>
+                        <br/>
+                        <h4>RESULTS FOR XRAY IMAGE: {{name}}</h4>
+                        
+                    </div>
+                  </div>
+            </center>
+        </div>
+    </body>
+</html>
