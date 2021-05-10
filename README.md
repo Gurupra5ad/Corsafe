@@ -21,6 +21,6 @@ Web app providng a easy and best user interface to monitor mass gathering places
  ## :warning: All the web apps are added in the project folders respective to their names and are run individually.
  
  
-## :heart: Owner
-Made with :heart:&nbsp;  by [GURUPRASAD & PALLAVI](https://github.com/Gurupra5ad/Corsafe-Better_health_hackathon)
+## Owner
+Made by [GURUPRASAD & PALLAVI](https://github.com/Gurupra5ad/Corsafe-Better_health_hackathon)
 
